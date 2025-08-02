@@ -13,4 +13,15 @@ public class User {
     private String password;
     private String name;
     private Integer age;
+    //重写toString
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
